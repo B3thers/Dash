@@ -14,7 +14,7 @@
             },
             "orientation": "h",
             "valueformat": ".0f",
-            "valueprefix": "£",
+            "prefix": "£",
             "node": {
                 "pad": 15,
                 "thickness": 15,
