@@ -1,7 +1,6 @@
 from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 import json, urllib
-from dash import Dash, dcc, Output, Input  # pip install dash
 import plotly.express as px
 import pandas as pd                        # pip install pandas
 
@@ -43,4 +42,5 @@ def display_sankey(opacity):
     fig.update_layout(font_size=10)
     return fig
 
-app.run_server(debug=True, use_reloader=False)
+if __name__ == "__main__":
+    app.run_server(debug=False)
