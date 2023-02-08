@@ -1,0 +1,8 @@
+dash==2.7.0
+plotly.graph_objects
+json
+dash_bootstrap_components
+plotly
+pandas
+gunicorn
+numpy
