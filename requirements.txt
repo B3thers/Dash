@@ -3,4 +3,4 @@ json5
 urllib3
 pandas
 gunicorn
-plotly
+plotly==5.9.0
