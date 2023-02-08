@@ -2,10 +2,8 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.graph_objects as go
 import json, urllib
 from dash import Dash, dcc, Output, Input  # pip install dash
-import dash_bootstrap_components as dbc    # pip install dash-bootstrap-components
 import plotly.express as px
 import pandas as pd                        # pip install pandas
-import numpy as np 
 
 # incorporate data into app
 # Source - https://www.cdc.gov/nchs/pressroom/stats_of_the_states.htm
