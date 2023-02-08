@@ -1,6 +1,5 @@
 dash==2.7.0
-json
-dash_bootstrap_components
-plotly
+json5==0.9.6
+urllib3==1.26.14
 pandas
 gunicorn
