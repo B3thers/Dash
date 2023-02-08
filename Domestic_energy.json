@@ -14,7 +14,7 @@
             },
             "orientation": "h",
             "valueformat": ".0f",
-            "valuesuffix": "£",
+            "valuesuffix": "GBP",
             "node": {
                 "pad": 15,
                 "thickness": 15,
