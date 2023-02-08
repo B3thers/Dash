@@ -25,7 +25,7 @@ app.layout = html.Div([
     Output("graph", "figure"), 
     Input("slider", "value"))
 def display_sankey(opacity):
-    url = 'https://raw.githubusercontent.com/B3thers/Dash/main/Domestic_energy.json'
+    url = 'https://raw.githubusercontent.com/B3thers/Data/main/DomEn.json'
     response = urllib.request.urlopen(url)
     data = json.loads(response.read()) # replace with your own data source
 
