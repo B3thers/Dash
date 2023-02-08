@@ -13,6 +13,7 @@ import numpy as np
 #   print(df.head())
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H4('Generalised Domestic Energy Cash flow, Oct 2021 - Dec 2022'),
